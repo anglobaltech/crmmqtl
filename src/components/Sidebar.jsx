@@ -43,7 +43,7 @@ export default function Sidebar() {
         </Link>    
         <Link href="#" className={`flex items-center text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg p-3 transition-colors ${isCollapsed ? 'justify-center' : 'space-x-3'}`}>
           <FolderOpen size={20} className="min-w-[20px]" />
-          {!isCollapsed && <span className="font-medium whitespace-nowrap">Project</span>}
+          {!isCollapsed && <span className="font-medium whitespace-nowrap">Projects</span>}
         </Link>
         <Link href="#" className={`flex items-center text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg p-3 transition-colors ${isCollapsed ? 'justify-center' : 'space-x-3'}`}>
           <Settings size={20} className="min-w-[20px]" />
